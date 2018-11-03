@@ -62,4 +62,4 @@ data = open('data.txt').read()
 
 predictors, label, max_sequence_len, total_words = cleansing(data)
 model = build_model(predictors, label, max_sequence_len, total_words)
-print(next_words("minister", 2, max_sequence_len))
+print(next_words("prime", 1, max_sequence_len))
